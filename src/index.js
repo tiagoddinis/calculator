@@ -74,8 +74,6 @@ class App extends React.Component {
             const isNumber = /[0-9]/.test(btnLabel);
             const isOperator = /÷|×|-|\+/.test(btnLabel);
             this.contextFuncList[newState.context](btnLabel, newState, isNumber, isOperator);
-            console.log(newState.context);
-            console.log(newState.isFloat);
             return newState;
         });
     }
@@ -237,8 +235,6 @@ class App extends React.Component {
             newState.context = "(";
         }
         else if (currentChar === ")") newState.context = ")";
-
-        console.log(newState.context);
     }
 
     onEvalRequest(newState) {

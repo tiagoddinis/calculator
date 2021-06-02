@@ -117,7 +117,7 @@ html { font-size: 100%; }
     border-radius: .4375em;
     background-color: #64d069;
     box-shadow: 0 .125em .125em rgba(0,0,0,.09), inset 0 .0625em 0 rgba(255,255,255,.5);
-    background-image: linear-gradient(bottom, #64d069 0%, #70e475 100%);
+    background-image: -webkit-linear-gradient(bottom, #64d069 0%, #70e475 100%);
 }
 
 .greenButton:hover {
