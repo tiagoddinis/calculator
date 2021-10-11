@@ -26,7 +26,6 @@ html { font-size: 100%; }
     justify-content: flex-end;
     align-items: center;
     height: 30%;
-    opacity: 50%;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -42,6 +41,7 @@ html { font-size: 100%; }
 .previous {
     margin-right: 1%;
     font-size: 2em;
+    color: #7e7e7e;
 }
 
 .current {
@@ -51,7 +51,7 @@ html { font-size: 100%; }
 .missingParenthesis {
     margin-right: 1%;
     font-size: 4em;
-    opacity: 50%;
+    color: #7e7e7e;
 }
 
 .buttonPanel {
