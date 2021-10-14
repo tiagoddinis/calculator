@@ -6,7 +6,7 @@ A learning project to get my feet wet with React. Emulates the right portion of 
 
 ![google_calculator](docs/images/google_calculator.png) ![repo_calculator](docs/images/repo_calculator.png)
 
-Lots of things that could be improved, such as using a finite-state machine when building expressions, implementing an expression history and undo features, and polishing the overall css organization and responsiveness. Next time, fail forward gang ❌⏩✔️💪
+Lots of things that could be improved, such as using a finite-state machine when building expressions, implementing an expression history and undo features, and polishing the overall css organization and responsiveness.
 
 ### Installation
 If you want to run the app locally:
@@ -16,4 +16,4 @@ If you want to run the app locally:
     npm start
 
 ### License
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+[MIT License](https://opensource.org/licenses/MIT).
